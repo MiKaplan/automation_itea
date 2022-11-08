@@ -1,3 +1,5 @@
+package homework;
+
 public class HW1 {
     int a = 10;
     int b = 20;
