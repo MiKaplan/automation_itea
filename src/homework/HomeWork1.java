@@ -31,13 +31,13 @@ public class HomeWork1 {
         //Task 3
         System.out.println("\n Task 3 \n");
 
+        System.out.println("Enter 3 digit number:");
         int num = in.nextInt();
 
         int numOfHundreds = num / 100;
-
         int numOfTens = num / 10;
 
-        System.out.println("Number of hundreds: " + numOfHundreds + ", Number of tens: " + numOfTens + ", Number of units" + num);
+        System.out.println("Number of hundreds: " + numOfHundreds + ", Number of tens: " + numOfTens + ", Number of units: " + num);
 
 
 
