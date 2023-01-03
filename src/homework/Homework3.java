@@ -20,27 +20,33 @@ public class Homework3 {
         switch (operation) {
             case "+":
                 result = firstNum + secondNum;
+                System.out.println("Result: " + result);
                 break;
             case "-":
                 result = firstNum - secondNum;
+                System.out.println("Result: " + result);
                 break;
             case "*":
                 result = firstNum * secondNum;
+                System.out.println("Result: " + result);
                 break;
             case "/":
                 result = firstNum / secondNum;
+                System.out.println("Result: " + result);
                 break;
             case "pow":
                 result = Math.pow(firstNum, secondNum);
+                System.out.println("Result: " + result);
                 break;
             case "%":
                 result = firstNum % secondNum;
+                System.out.println("Result: " + result);
                 break;
             default:
                 System.out.println("You enter wrong arithmetic operation");
                 getResult();
                 break;
         }
-        System.out.println("Result: " + result);
+
     }
 }
