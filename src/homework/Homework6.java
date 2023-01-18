@@ -1,12 +1,6 @@
 package homework;
 
 public class Homework6 {
-    public static void main(String[] args) {
-        int[][] array = multipleArrays();
-
-        maxNumInArray(array);
-    }
-
     static int[][] multipleArrays() {
         int[][] firstArray = {{1, 2}, {3, 4}};
         int[][] secondArray = {{5, 6}, {7, 8}};
@@ -37,5 +31,11 @@ public class Homework6 {
             }
         }
         System.out.println("Max elem: " + max);
+    }
+
+    public static void main(String[] args) {
+        int[][] array = multipleArrays();
+
+        maxNumInArray(array);
     }
 }
